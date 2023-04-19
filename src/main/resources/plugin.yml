@@ -1,0 +1,14 @@
+name: tp
+version: '${project.version}'
+main: work.baiyun.tp.Tp
+api-version: 1.19
+commands:
+  tohome:
+    description: 消耗五枚金锭，传送回出生地
+    usage: /tohome
+  tobed:
+    description: 消耗五枚金锭，传送回床的位置
+    usage: /tobed
+  to:
+    description: 消耗十枚金锭，传送到指定的玩家
+    usage: /to
